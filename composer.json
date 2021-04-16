@@ -1,0 +1,23 @@
+{
+    "name": "cmath10/mapper-bundle",
+    "description": "Symfony bundle for cmath10/mapper",
+    "keywords": ["mapper", "automapper", "symfony", "symfony5"],
+    "type": "symfony-bundle",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "homepage": "https://github.com/cmath10/mapper-bundle",
+    "require": {
+        "php": ">=7.4",
+        "cmath10/mapper": "^1.0",
+        "symfony/framework-bundle": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "cmath10\\MapperBundle\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
