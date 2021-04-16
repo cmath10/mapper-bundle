@@ -12,6 +12,9 @@
         "cmath10/mapper": "^1.0",
         "symfony/framework-bundle": "^5.2"
     },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
     "autoload": {
         "psr-4": {
             "cmath10\\MapperBundle\\": "src/"
