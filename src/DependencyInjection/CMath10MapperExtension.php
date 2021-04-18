@@ -1,6 +1,5 @@
 <?php
 
-
 namespace cmath10\MapperBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
