@@ -25,7 +25,7 @@ RUN set -ex \
         libc-dev \
         make \
         zlib-dev \
-    && pecl install xdebug \
+    && pecl install xdebug-2.9.0 \
     && docker-php-ext-enable xdebug \
     && apk del --no-network .build-deps
 
